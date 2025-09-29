@@ -1,0 +1,192 @@
+{
+  "name": "Patrick Ortiz",
+  "position": "Web Development Professional",
+  "contact": {
+    "home": "919-528-3198",
+    "mobile": "609-213-5582",
+    "email": "porecruiters@gmail.com"
+  },
+  "profile": "Innovative and highly detailed software developer, with broad knowledge and hands-on experience designing, developing, and enhancing web applications. Able to apply advanced technical expertise to improve operations, streamline procedures, and produce a powerful Internet presence. Personable individual, with a capacity to work well independently or with diverse teams. Flexible, patient, and dedicated to meeting company needs, and exceeding expectations.",
+  "technical": [
+    {
+      "title": "Languages",
+      "entries": [
+        "HTML",
+        "CSS",
+        "Javascript (including ES6)",
+        "PHP",
+        "Python",
+        "SQL",
+        "XML",
+        "JSON"
+      ]
+    },
+    {
+      "title": "IDE's / Editors",
+      "entries": [
+        "TextMate",
+        "Netbeans",
+        "Vim",
+        "Notepad ++",
+        "Eclipse",
+        "IntelliJ (Webstorm)",
+        "Sublime Text"
+      ]
+    },
+    {
+      "title": "Servers",
+      "entries": ["Apache", "Tomcat", "Express"]
+    },
+    {
+      "title": "Databases",
+      "entries": ["MySql", "Postgres", "Mongo", "Oracle"]
+    },
+    {
+      "title": "Frameworks",
+      "entries": [
+        "jQuery",
+        "AngularJS",
+        "React",
+        "Flux",
+        "Bootstrap",
+        "Node",
+        "NPM",
+        "Bower",
+        "Yeoman",
+        "Gulp"
+      ]
+    },
+    {
+      "title": "Standards",
+      "entries": [
+        "W3C Web Standards",
+        "Section 508",
+        "WCAG 1.0 and 2.0",
+        "HIPAA"
+      ]
+    },
+    {
+      "title": "Practices",
+      "entries": [
+        "Semantic Web Markup",
+        "Responsive Web",
+        "Refactoring",
+        "Material Design",
+        "Architecture Design"
+      ]
+    },
+    {
+      "title": "Other",
+      "entries": [
+        "Joomla! CMS",
+        "Microsoft Office",
+        "Omnigraffle",
+        "Adobe Photoshop CS5",
+        "Figma"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior UI Engineer",
+      "company": "SignalPath",
+      "location": "Raleigh, NC",
+      "years": ["2017"],
+      "responsibilities": [
+        "Built and maintained the Clinical Trial Management Software using HTML, SCSS, Javascript, Angular 1.x, Angular 4, Karma, and PhantomJS.",
+        "Built and maintained the PDF Service using Node, Javascript, Express, Karma, and PhantomJS.",
+        "Contributed to architecture and deployment planning sessions for the above technologies."
+      ]
+    },
+    {
+      "title": "Senior UI Engineer",
+      "company": "Top Quadrant",
+      "location": "Raleigh, NC",
+      "years": ["2017"],
+      "responsibilities": [
+        "Used SWP and SPARQL, along with HTML, CSS, Javascript, and jQuery to build out the TopBraid Data Governance application.",
+        "Mentored and trained other UI engineers on React, Flux, Webpack, and Node."
+      ]
+    },
+    {
+      "title": "Software Development Engineer 3, Scrum Master, Team Lead",
+      "company": "Lulu Press",
+      "location": "Raleigh, NC",
+      "years": [
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "responsibilities": [
+        "Served as Scrum Master, ensuring that project processes were observed and ensured that Scrum Teams were giving all opportunities to succeed.",
+        "Acted as team lead, specifically with regards to User Interface development and design. This meant ensuring that standards in coding practices were observed and integrated.",
+        "Served as Technical Release Manager in charge of ensuring code is packaged and recorded prior to release with BASH, Puppet, Salt, and finally docker. This included Test and Production environments.",
+        "Built and maintained the UI for the Lulu eCommerce system which included the Shopping Cart and entire Checkout flow using Velocity templates, Django templates, and AngularJS.",
+        "Developed and maintained a content management system for use by the Marketing teams using the Joomla! CMS and PHP. This included the addition of content migration features, templating, language selection and traffic routing built with the Joomla! API. In addition, built and maintained a SilverStripe CMS instance as well for LuluJr utilizing PostgresQL and PHP.",
+        "Created HTML, OmniGraffle, and Photoshop mockups for user interfaces."
+      ]
+    },
+    {
+      "title": "Associate Software Development Engineer",
+      "company": "Peopleclick",
+      "location": "Raleigh, NC",
+      "years": ["2006", "2007", "2008", "2009"],
+      "responsibilities": [
+        "Maintained and developed front end product solutions using Freemarker templates, HTML, CSS, JavaScript, and MSSQL.",
+        "Created HTML mockups for web-based user interfaces using industry standard coding practices in HTML, JavaScript, and CSS.",
+        "Maintained a presence as the \"go-to guy\" for all related web development questions as it applied to the above standards and compliance."
+      ]
+    },
+    {
+      "title": "IT Specialist / Web Development",
+      "company": "WebInsights Inc.",
+      "location": "Raleigh, NC",
+      "years": ["2005", "2006"],
+      "responsibilities": [
+        "Created web applications using PHP, PERL, CSS, HTML, and JavaScript that outline client needs.",
+        "Bridged MySQL, Postgres, Oracle, and MSSQL databases using PHP and Perl.",
+        "Maintained code and database applications run on Apache Web Server."
+      ]
+    },
+    {
+      "title": "IT Specialist / Web Development",
+      "company": "PhysioMetrics Inc.",
+      "location": "Mount Laurel, NJ",
+      "years": ["2002", "2003", "2004", "2005"],
+      "responsibilities": [
+        "Developed module based code for the company web site using PHP, MySQL, CSS, HTML, and JavaScript.",
+        "Supported and maintained a basic Apache Web Server configuration for the company intra-net.",
+        "Supported and maintained the company in-house software built on Visual Basic 6.0.",
+        "Provided phone and technical support for field personnel.",
+        "Designed and implemented logistical plans to provide field personnel with supplies and equipment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Web Development and Business Programming",
+      "type": "Diploma with Honors",
+      "grad_year": "2002",
+      "gpa": "3.8",
+      "school_name": "The Chubb Institute of Cherry Hill",
+      "school_location": "Cherry Hill, NJ",
+      "skills": [
+        "Created practical, customized business solutions in Java and Visual Basic.",
+        "Obtained a solid skill-set in the design of new programs and algorithms.",
+        "Achieved a qualified education in a wide range of technical systems, tools, methodologies, and languages."
+      ]
+    }
+  ],
+  "references": {
+    "url": "http://www.linkedin.com/pub/patrick-ortiz/4/3b9/9ab"
+  },
+  "portfolio": {
+    "url": "https://www.github.com/gerlocian/"
+  }
+}
