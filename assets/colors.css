@@ -41,8 +41,28 @@
   color: var(--color-text);
 }
 
-.color-primary { color: var(--color-primary); }
-.color-secondary { color: var(--color-secondary); }
-.color-accent { color: var(--color-accent); }
+.color-primary, .color-secondary, .color-accent {
+  color: var(--color-selected);
+
+  &.lighter {
+    color: light-dark(
+      hsl(from var(--color-selected) h s calc(l + 5)),
+      hsl(from var(--color-selected) h s calc(l - 5))
+    );
+  }
+
+  &.darker {
+    color: light-dark(
+      hsl(from var(--color-selected) h s calc(l - 5)),
+      hsl(from var(--color-selected) h s calc(l + 5))
+    );
+  }
+}
+
+.color-primary { --color-selected: var(--color-primary); }
+.color-secondary { --color-selected: var(--color-secondary); }
+.color-accent { --color-selected: var(--color-accent); }
+
+
 
 
