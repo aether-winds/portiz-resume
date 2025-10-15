@@ -1,0 +1,48 @@
+@property --color-accent {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(52, 55%, 52%);
+}
+
+@property --color-background {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(0, 0%, 93%);
+}
+
+@property --color-primary {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(103, 100%, 11%);
+}
+
+@property --color-secondary {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(107, 100%, 17%);
+}
+
+@property --color-text {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: hsl(0, 0%, 4%);
+}
+
+:root {
+  color-scheme: light dark;
+
+  --color-accent: light-dark(hsl(52, 55%, 52%), hsl(52, 55%, 48%));
+  --color-background: light-dark(hsl(0, 0%, 93%), hsl(0, 0%, 7%));
+  --color-primary: light-dark(hsl(103, 100%, 11%), hsl(103, 100%, 89%));
+  --color-secondary: light-dark(hsl(107, 100%, 17%), hsl(107, 100%, 83%));
+  --color-text: light-dark(hsl(0, 0%, 4%), hsl(0, 0%, 96%));
+
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.color-primary { color: var(--color-primary); }
+.color-secondary { color: var(--color-secondary); }
+.color-accent { color: var(--color-accent); }
+
+

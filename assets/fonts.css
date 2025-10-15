@@ -1,0 +1,68 @@
+/**
+  Notes:
+    * Remember to use 'em' or 'rem' units for font-size, margin, padding, width and height.
+    * Exception to this rule is using 'vw' or 'vh' for responsive typography.
+    * Avoid using 'px' units to ensure accessibility and responsiveness.
+
+  Notes on web safe fonts:
+    * Courier New for monospace fonts, ideal for code snippets and tabular data.
+    * Verdana for small font sizes due to its wide spacing and readability.
+    * Arial for general use.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@property --font-scale-interval {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --font-scale-percentage {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 1.2; /* Minor Third Scale */
+}
+
+:root {
+  font-family: "Hanken Grotesk", Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: calc(1rem * pow(var(--font-scale-percentage), var(--font-scale-interval)));
+  font-weight: normal;
+  letter-spacing: calc(-1rem * (var(--font-scale-interval) * 0.02));
+  line-height: calc(1 + ((6 - var(--font-scale-interval)) * 0.1));
+
+  margin: 0;
+}
+
+h6 {
+  --font-scale-interval: 1;
+}
+
+h5 {
+  --font-scale-interval: 2;
+}
+
+h4 {
+  --font-scale-interval: 3;
+}
+
+h3 {
+  --font-scale-interval: 4;
+}
+
+h2 {
+  --font-scale-interval: 5;
+}
+
+h1 {
+  --font-scale-interval: 6;
+}
